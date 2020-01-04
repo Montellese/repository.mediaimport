@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="repository.mediaimport" name="Media Import Repository" version="0.0.1" provider-name="Montellese">
+	<extension point="xbmc.addon.repository" name="Media Import Repository">
+		<info compressed="false">https://raw.github.com/Montellese/repository.mediaimport/master/addons.xml</info>
+		<checksum>https://raw.github.com/Montellese/repository.mediaimport/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/Montellese/repository.mediaimport/master/downloads/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Media Import Repository</summary>
+		<description lang="en_GB">Kodi media importer and additional add-ons.</description>
+		<disclaimer lang="en_GB" />
+		<platform>all</platform>
+		<license>GPL-2.0-or-later</license>
+		<source>https://github.com/Montellese/repository.mediaimport/</source>
+		<website>https://github.com/Montellese/</website>
+		<email>montellese@kodi.tv</email>
+	</extension>
+</addon><addon id="mediaimporter.emby" name="Emby Media Importer" version="0.0.1" provider-name="Montellese">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.dateutil" />
+        <import addon="script.module.requests" />
+        
+    </requires>
+    <extension point="kodi.mediaimporter" protocol="Emby" discovery="discovery.py" library="importer.py" observer="observer.py">
+        <canlookupprovider>true</canlookupprovider>
+        <provideschangeset>false</provideschangeset>
+        <providersettings>providersettings.xml</providersettings>
+        <importsettings>importsettings.xml</importsettings>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Import and play media items from an Emby Media Server or Jellyfin</summary>
+        <description lang="en">Emby Media Importer allows you to import and play media libraries, for movies, tv shows and music videos, from Emby Media Server or Jellyfin. Thus using Emby / Jellyfin as a metadata manager (server) and Kodi as player (client). In addition playback data can be synced across multiple clients, for each user on Emby / Jellyfin.</description>
+        <disclaimer lang="en" />
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum />
+        <website>http://kodi.tv</website>
+        <email>montellese@kodi.tv</email>
+        <source>https://github.com/Montellese/mediaimporter.emby</source>
+    </extension>
+</addon><addon id="mediaimporter.plex" name="Plex Media Importer" version="0.0.1" provider-name="Montellese">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.dateutil" />
+        <import addon="script.module.requests" />
+        
+    </requires>
+    <extension point="kodi.mediaimporter" protocol="Plex" discovery="discovery.py" library="importer.py" observer="observer.py">
+        <canlookupprovider>true</canlookupprovider>
+        <provideschangeset>false</provideschangeset>
+        <providersettings>providersettings.xml</providersettings>
+        <importsettings>importsettings.xml</importsettings>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Import and play media items from a Plex Media Server (PMS)</summary>
+        <description lang="en">Plex Media Importer allows you to import and play media libraries, for movies, tv shows and music videos, from Plex Media Server (PMS). Thus using Plex as a metadata manager (server) and Kodi as player (client). In addition playback data can be synced across multiple clients, for each user on Plex.</description>
+        <disclaimer lang="en" />
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum />
+        <website>http://kodi.tv</website>
+        <email>montellese@kodi.tv</email>
+        <source>https://github.com/Montellese/mediaimporter.plex</source>
+    </extension>
+</addon></addons>

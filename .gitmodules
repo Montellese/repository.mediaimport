@@ -1,0 +1,6 @@
+[submodule "mediaimporter.emby"]
+	path = mediaimporter.emby
+	url = git@github.com:Montellese/mediaimporter.emby.git
+[submodule "mediaimporter.plex"]
+	path = mediaimporter.plex
+	url = git@github.com:Montellese/mediaimporter.plex.git
