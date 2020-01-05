@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.mediaimport" name="Media Import Repository" version="0.0.1" provider-name="Montellese">
+<addon id="repository.mediaimport" name="Media Import Repository" version="0.0.2" provider-name="Montellese">
 	<extension point="xbmc.addon.repository" name="Media Import Repository">
 		<info compressed="false">https://raw.github.com/Montellese/repository.mediaimport/master/addons.xml</info>
 		<checksum>https://raw.github.com/Montellese/repository.mediaimport/master/addons.xml.md5</checksum>
