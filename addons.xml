@@ -63,4 +63,21 @@
         <email>montellese@kodi.tv</email>
         <source>https://github.com/Montellese/mediaimporter.plex</source>
     </extension>
+</addon><addon id="script.module.websocket_client" name="websocket_client" version="0.57.0" provider-name="liris">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Websocket client for Python</summary>
+    <description lang="en_GB">websocket-client module is WebSocket client for python. This provide the low level APIs for WebSocket. All APIs are the synchronous functions.</description>
+    <platform>all</platform>
+    <license>BSD</license>
+    <website>https://pypi.org/project/websocket_client/</website>
+    <source>https://github.com/Freso/script.module.idna</source>
+    <email>liris.pp AT gmail.com</email>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
 </addon></addons>

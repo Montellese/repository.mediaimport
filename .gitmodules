@@ -4,3 +4,6 @@
 [submodule "mediaimporter.plex"]
 	path = mediaimporter.plex
 	url = git@github.com:Montellese/mediaimporter.plex.git
+[submodule "script.module.websocket_client"]
+	path = script.module.websocket_client
+	url = git@github.com:Montellese/script.module.websocket_client.git
