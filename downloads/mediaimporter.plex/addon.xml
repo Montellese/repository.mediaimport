@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="mediaimporter.plex" name="Plex Media Importer" version="0.0.1" provider-name="Montellese">
+<addon id="mediaimporter.plex" name="Plex Media Importer" version="0.0.2" provider-name="Montellese">
     <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.dateutil" />
+        <import addon="xbmc.python" version="2.26.0"/>
+        <import addon="script.module.websocket_client" version="0.57.0"/>
         <import addon="script.module.requests" />
+        <import addon="script.module.six" />
         <!-- <import addon="script.module.web-pdb" /> -->
     </requires>
     <extension point="kodi.mediaimporter" protocol="Plex" discovery="discovery.py" library="importer.py" observer="observer.py">
@@ -13,11 +14,11 @@
         <importsettings>importsettings.xml</importsettings>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">Import and play media items from a Plex Media Server (PMS)</summary>
-        <description lang="en">Plex Media Importer allows you to import and play media libraries, for movies, tv shows and music videos, from Plex Media Server (PMS). Thus using Plex as a metadata manager (server) and Kodi as player (client). In addition playback data can be synced across multiple clients, for each user on Plex.</description>
-        <disclaimer lang="en"></disclaimer>
+        <summary lang="en_GB">Import and play media items from a Plex Media Server (PMS)</summary>
+        <description lang="en_GB">Plex Media Importer allows you to import and play media libraries, for movies, tv shows and music videos, from Plex Media Server (PMS). Thus using Plex as a metadata manager (server) and Kodi as player (client). In addition playback data can be synced across multiple clients, for each user on Plex.</description>
+        <disclaimer lang="en_GB"></disclaimer>
         <platform>all</platform>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <license>GPL-2.0-or-later</license>
         <forum></forum>
         <website>http://kodi.tv</website>
         <email>montellese@kodi.tv</email>
