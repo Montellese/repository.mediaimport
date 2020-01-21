@@ -1,0 +1,10 @@
+[B]Version 0.0.3[/B]
+- Support reporting playback progress / status to PMS
+- Improve PMS access URL detection (including relays)
+- Support importing collections / sets along with movies
+
+[B]Version 0.0.2[/B]
+- Support for Python 2 and 3
+
+[B]Version 0.0.1[/B]
+- Initial version
