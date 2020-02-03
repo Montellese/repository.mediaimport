@@ -15,7 +15,7 @@
 		<website>https://github.com/Montellese/</website>
 		<email>montellese@kodi.tv</email>
 	</extension>
-</addon><addon id="mediaimporter.emby" name="Emby Media Importer" version="0.0.4" provider-name="Montellese">
+</addon><addon id="mediaimporter.emby" name="Emby Media Importer" version="0.0.5" provider-name="Montellese">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
         <import addon="script.module.dateutil" />
@@ -41,7 +41,7 @@
         <email>montellese@kodi.tv</email>
         <source>https://github.com/Montellese/mediaimporter.emby</source>
     </extension>
-</addon><addon id="mediaimporter.plex" name="Plex Media Importer" version="0.0.3" provider-name="Montellese">
+</addon><addon id="mediaimporter.plex" name="Plex Media Importer" version="0.0.4" provider-name="Montellese">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
         <import addon="script.module.websocket_client" version="0.57.0" />

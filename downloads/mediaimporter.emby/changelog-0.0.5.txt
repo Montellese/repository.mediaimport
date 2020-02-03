@@ -1,0 +1,23 @@
+[B]Version 0.0.5[/B]
+- make Direct Play configurable
+- Fix crash in emby.player.Player callbacks
+- automatically add external subtitles when starting playback of a video
+- make external subtitles configurable
+- make importing collections / movie sets configurable (enabled by default)
+- support secure websocket connections
+- improve websocket connections to remote Emby servers
+
+[B]Version 0.0.4[/B]
+- Fix importing logo / clearlogo artwork
+- Import additional artwork (clearart, banner, landscape, discart)
+- Fix reporting playback progress to the Emby server
+- Import boxsets / collections / sets along with movies
+
+[B]Version 0.0.3[/B]
+- Support DirectPlay for files which are directly accessible over Kodi's VFS
+
+[B]Version 0.0.2[/B]
+- Support for Python 2 and 3
+
+[B]Version 0.0.1[/B]
+- Initial version
