@@ -66,9 +66,10 @@
         <email>montellese@kodi.tv</email>
         <source>https://github.com/Montellese/mediaimporter.plex</source>
     </extension>
-</addon><addon id="script.module.websocket_client" name="websocket_client" version="0.57.0" provider-name="liris">
+</addon><addon id="script.module.websocket_client" name="websocket_client" version="0.57.1" provider-name="liris">
   <requires>
-    <import addon="xbmc.python" version="2.26.0" />
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.six" />
   </requires>
   <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.addon.metadata">
@@ -77,7 +78,7 @@
     <platform>all</platform>
     <license>BSD</license>
     <website>https://pypi.org/project/websocket_client/</website>
-    <source>https://github.com/Freso/script.module.idna</source>
+    <source>https://github.com/websocket-client/websocket-client</source>
     <email>liris.pp AT gmail.com</email>
     <assets>
       <icon>resources/icon.png</icon>
