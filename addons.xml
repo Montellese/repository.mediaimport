@@ -83,4 +83,19 @@
       <icon>resources/icon.png</icon>
     </assets>
   </extension>
+</addon><addon id="script.module.semantic_version" name="python-semanticversion" version="2.8.4" provider-name="Raphaël Barrois">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Tool to handle SemVer in Python</summary>
+    <description lang="en_GB">The semantic_version module provides a few tools to handle SemVer in Python. It follows strictly the 2.0.0 version of the SemVer scheme.</description>
+    <license>BSD-2-Clause</license>
+    <website>https://python-semanticversion.readthedocs.io/en/stable/</website>
+    <source>https://github.com/rbarrois/python-semanticversion</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
 </addon></addons>

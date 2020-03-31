@@ -7,3 +7,6 @@
 [submodule "script.module.websocket_client"]
 	path = script.module.websocket_client
 	url = git@github.com:Montellese/script.module.websocket_client.git
+[submodule "script.module.semantic_version"]
+	path = script.module.semantic_version
+	url = git@github.com:Montellese/script.module.semantic_version.git
