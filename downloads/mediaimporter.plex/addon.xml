@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="mediaimporter.plex" name="Plex Media Importer" version="0.0.4" provider-name="Montellese">
+<addon id="mediaimporter.plex" name="Plex Media Importer" version="0.0.5" provider-name="Montellese">
     <requires>
-        <import addon="xbmc.python" version="2.26.0"/>
+        <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.websocket_client" version="0.57.0"/>
         <import addon="script.module.requests" />
         <import addon="script.module.six" />
