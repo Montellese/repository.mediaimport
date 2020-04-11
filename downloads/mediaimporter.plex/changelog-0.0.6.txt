@@ -1,0 +1,20 @@
+[B]Version 0.0.6[/B]
+- adjust kodi.mediaimporter extension point to changes in Kodi
+
+[B]Version 0.0.5[/B]
+- don't abort the whole import process if a single item is broken (thanks @enen92)
+- bump xbmc.python version to 3.0.0 for Matrix (Python 3) compatibility
+
+[B]Version 0.0.4[/B]
+- Add support for external subtitles
+
+[B]Version 0.0.3[/B]
+- Support reporting playback progress / status to PMS
+- Improve PMS access URL detection (including relays)
+- Support importing collections / sets along with movies
+
+[B]Version 0.0.2[/B]
+- Support for Python 2 and 3
+
+[B]Version 0.0.1[/B]
+- Initial version

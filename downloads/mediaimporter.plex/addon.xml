@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="mediaimporter.plex" name="Plex Media Importer" version="0.0.5" provider-name="Montellese">
+<addon id="mediaimporter.plex" name="Plex Media Importer" version="0.0.6" provider-name="Montellese">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.websocket_client" version="0.57.0"/>
@@ -7,9 +7,8 @@
         <import addon="script.module.six" />
         <!-- <import addon="script.module.web-pdb" /> -->
     </requires>
-    <extension point="kodi.mediaimporter" protocol="Plex" discovery="discovery.py" library="importer.py" observer="observer.py">
-        <canlookupprovider>true</canlookupprovider>
-        <provideschangeset>false</provideschangeset>
+    <extension point="kodi.mediaimporter" discovery="discovery.py" library="importer.py" observer="observer.py">
+        <canlookupprovider protocol="Plex">true</canlookupprovider>
         <providersettings>providersettings.xml</providersettings>
         <importsettings>importsettings.xml</importsettings>
     </extension>
