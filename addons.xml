@@ -60,12 +60,13 @@
         <email>montellese@kodi.tv</email>
         <source>https://github.com/Montellese/mediaimporter.emby</source>
     </extension>
-</addon><addon id="mediaimporter.plex" name="Plex Media Importer" version="0.0.6" provider-name="Montellese">
+</addon><addon id="mediaimporter.plex" name="Plex Media Importer" version="0.0.7" provider-name="Montellese">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.websocket_client" version="0.57.0" />
         <import addon="script.module.requests" />
         <import addon="script.module.six" />
+        <import addon="script.module.dateutil" />
         
     </requires>
     <extension point="kodi.mediaimporter" discovery="discovery.py" library="importer.py" observer="observer.py">
