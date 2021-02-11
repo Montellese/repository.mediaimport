@@ -63,14 +63,14 @@
             <icon>resources/icon.png</icon>
         </assets>
     </extension>
-</addon><addon id="mediaimporter.plex" name="Plex Media Importer" version="0.0.7" provider-name="Montellese">
+</addon><addon id="mediaimporter.plex" name="Plex Media Importer" version="0.0.8" provider-name="Montellese">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
-        <import addon="script.module.websocket_client" version="0.57.0" />
-        <import addon="script.module.requests" />
-        <import addon="script.module.six" />
-        <import addon="script.module.dateutil" />
+        <import addon="script.module.dateutil" version="2.8.1+matrix.1" />
+        <import addon="script.module.requests" version="2.22.0+matrix.1" />
+        <import addon="script.module.six" version="1.14.0+matrix.1" />
         
+        <import addon="script.module.websocket_client" version="0.57.0" />
     </requires>
     <extension point="kodi.mediaimporter" discovery="discovery.py" library="importer.py" observer="observer.py">
         <canlookupprovider protocol="Plex">true</canlookupprovider>
@@ -87,6 +87,9 @@
         <website>http://kodi.tv</website>
         <email>montellese@kodi.tv</email>
         <source>https://github.com/Montellese/mediaimporter.plex</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+        </assets>
     </extension>
 </addon><addon id="script.module.websocket_client" name="websocket_client" version="0.57.1" provider-name="liris">
   <requires>
