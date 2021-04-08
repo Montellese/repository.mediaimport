@@ -1,0 +1,1 @@
+python.exe .\create_repository.py -d ..\downloads\ -i ..\addons.xml -c ..\addons.xml.md5 ..\repository.mediaimport\ ..\mediaimporter.emby\ ..\mediaimporter.plex\ ..\script.module.websocket_client\ ..\script.module.semantic_version
