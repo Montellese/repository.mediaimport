@@ -63,7 +63,7 @@
             <icon>resources/icon.png</icon>
         </assets>
     </extension>
-</addon><addon id="mediaimporter.plex" name="Plex Media Importer" version="0.0.8" provider-name="Montellese">
+</addon><addon id="mediaimporter.plex" name="Plex Media Importer" version="0.0.9" provider-name="Montellese">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.dateutil" version="2.8.1+matrix.1" />
