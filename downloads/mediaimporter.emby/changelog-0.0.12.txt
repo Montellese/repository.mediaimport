@@ -1,0 +1,78 @@
+[B]Version 0.0.12[/B]
+- show hint after using force full synchronization
+- add advanced option to change the URL of a media provider
+- fix selecting one of multiple servers linked to an Emby Connect account
+- improve retrieving BoxSets / collections for movies
+- use explicit setters in InfoTagVideo instead of ListItem.setInfo()
+
+[B]Version 0.0.11[/B]
+- fix exception when showing PIN for Emby Connect
+- don't require a password for logging in (closes #40)
+- add an option to generate a new device ID (closes #39)
+
+[B]Version 0.0.10[/B]
+- add Portuguese (Brazil) translation
+- fix mapping default unique ID
+- map trailers from youtube to plugin.video.youtube
+- use add-on's icon instead of trying to get it from the Emby server
+- adjust add-on to changes in Kodi's Python API
+
+[B]Version 0.0.9[/B]
+- properly import tags from "TagItems" instead of "Tags" (fixes #19)
+- map "primary" artwork to "thumb" for episodes and musicvideos (fixes #16)
+- import thumbnail for actors
+- don't set playcount value if item is unwatched but in progress (fixes #24)
+- don't set the custom "emby" unique ID as the default (fixes #13)
+- support importing movies and tvshows from mixed libraries (closes #31)
+
+[B]Version 0.0.8[/B]
+-  don't attach the container type to direct stream URLs
+- move lib/semantic_version to script.module.semantic_version 2.8.4
+- fix authentication by username (manual)
+- adjust kodi.mediaimporter extension point to changes in Kodi
+- support "Emby Media Importer > Play ... > Direct Play / Direct Stream" context menu item
+- support "Emby Media Importer > Synchronize" context menu item
+- support "Emby Media Importer > Refresh metadata" context menu item
+
+[B]Version 0.0.7[/B]
+- convert all unique ID keys to lowercase
+- import critic rating as tomatometerallcritics
+- import local or remote trailer
+- fix exceptions / crashes when playing non-imported videos
+- support authentication with Emby Connect
+- support fast synchronization after a successful initial full synchronization
+- add an import-specific setting to force a full synchronization
+
+[B]Version 0.0.6[/B]
+- fix playback stopped / ended callback handling
+- fix reporting of playback resume point when playback stopped
+- process UNC / DVD / Blu-Ray paths before passing them to Kodi
+- improve mapping of studios, overviews, MPAA and video / audio streams
+- redact HTTP request bodies that might contain a password
+- download the server's icon to avoid unsupported HTTP HEAD requests
+- support displaying server messages as notifications
+- reduce authentication requests
+
+[B]Version 0.0.5[/B]
+- make Direct Play configurable
+- Fix crash in emby.player.Player callbacks
+- automatically add external subtitles when starting playback of a video
+- make external subtitles configurable
+- make importing collections / movie sets configurable (enabled by default)
+- support secure websocket connections
+- improve websocket connections to remote Emby servers
+
+[B]Version 0.0.4[/B]
+- Fix importing logo / clearlogo artwork
+- Import additional artwork (clearart, banner, landscape, discart)
+- Fix reporting playback progress to the Emby server
+- Import boxsets / collections / sets along with movies
+
+[B]Version 0.0.3[/B]
+- Support DirectPlay for files which are directly accessible over Kodi's VFS
+
+[B]Version 0.0.2[/B]
+- Support for Python 2 and 3
+
+[B]Version 0.0.1[/B]
+- Initial version
